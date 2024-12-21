@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://via.placeholder.com/1600x900.png?text=Background+Image') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2em;
+            color: #000;
+        }
+        ul {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0;
+            list-style-type: none;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        li {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+            font-size: 18px;
+            color: #333;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        li:hover {
+            background: rgba(0, 0, 0, 0.05);
+        }
